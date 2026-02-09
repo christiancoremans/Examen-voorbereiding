@@ -1,0 +1,37 @@
+1. Clone van Github via Github desktop
+2. Open de reposetory met composer
+3. Bekijk of de volgende versies hebt, zo niet download het.
+    Bekijken van versies:
+    - php -v
+    - composer -V
+    - node -v
+    - npm -v
+
+    downloaden van hierboven via terminal
+    -- composer: 
+        composer install
+    -- NPM:
+        npm install
+        npm run dev
+
+4. Copy .env.example .env
+5. Verander de naam en zorg dat de database mysql is, voorbeeld:
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=urenregistratie
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+6. Run migrations + seeders
+    - php artisan migrate --seed
+    
+    Fresh migrations
+    - php artisan migrate:fresh --seed
+
+7. Start running it via serve or the tilte.test
+    - Title.test (http://urenregistratie.test/)
+
+    Serve:
+    - php artisan serve
+    - http://127.0.0.1:8000/dashboard 
