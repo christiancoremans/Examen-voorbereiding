@@ -1,0 +1,28 @@
+Zo install je de extenties:
+1. Open VS-code
+2. Ga naar extentions of gebruik Ctrl + Shift + X
+3. Zoek extension name
+4. Install
+
+
+Alle die nodig zijn voor laravel 
+PHP Intelephense
+Laravel Extension Pack
+Laravel Artisan
+Laravel Blade Formatter
+Laravel Blade Snippets
+Laravel Extra Intellisense
+DotENV
+EditorConfig
+
+Optional:
+Laravel Goto Components (optional)
+Laravel Goto View (optional)
+Laravel Jump Controller (optional)
+Supermaven
+Laravel Blade Wrapper
+
+Als tailwind gebruikt:
+Tailwind CSS IntelliSense
+
+"php" gedownload kijken voor verschil
