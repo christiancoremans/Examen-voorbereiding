@@ -1,0 +1,12 @@
+laravel aanmaken
+
+1. Open de www map op C:\laragon\www
+2. Rechtermuisknop en open in terminal 
+3. Laravel new *name*
+4. Download starterpack (livewire)
+5. Kies pest als framework
+6. Database moet "MySQL" zijn
+7. Default databse migration: "Yes"
+8. would you like to run npm run dev and npm run build: "Yes"
+9. Open het in vs-studio
+10. Open het in title.test or php artisan serve
