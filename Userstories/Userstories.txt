@@ -20,3 +20,84 @@ Curio
 
 
 ----
+Urenregistratie
+
+Rol: Employee
+• Als employee wil ik kunnen inloggen, zodat ik toegang krijg tot het dashboard.
+• Als employee wil ik projecten kunnen aanmaken, zodat ik kan werken aan een project
+en gegevens kan bijhouden.
+• Als employee wil ik bij een project een titel, beschrijving en eventueel bestanden
+(zoals PDF’s) kunnen toevoegen.
+• Als employee wil ik kunnen inklokken, zodat mijn gewerkte uren worden opgeteld.
+• Als employee wil ik kunnen uitklokken, zodat mijn uren worden afgerond en
+geregistreerd.
+• Als employee wil ik een kalender kunnen zien, zodat ik mijn verwachte aanwezigheid
+kan bekijken.
+• Als employee wil ik mijn projecten kunnen bewerken, zodat oude gegevens up-to-date
+blijven.
+• Als employee wil ik binnen mijn project beschrijvingen en bestanden kunnen
+verwijderen, zodat irrelevante informatie geen ruimte inneemt.
+• Als employee wil ik projecten een kleur kunnen geven, zodat ze duidelijk herkenbaar
+zijn in de kalender.
+• Als employee wil ik een dashboard hebben om mijn gegevens te bekijken.
+• Als employee wil ik op het dashboard mijn totaal gewerkte uren kunnen zien, zodat ik
+weet hoeveel ik heb gewerkt.
+• Als employee wil ik op het dashboard een lijst zien van de meest recente projecten,
+gesorteerd van nieuw naar oud.
+• Als employee wil ik mijn kalender groot weergegeven zien op het dashboard.
+• Als employee wil ik kunnen zien wie er nog meer aan een project werkt wanneer ik de
+projectdetails in een popup bekijk.
+• Als employee wil ik gegevens kunnen opslaan die zichtbaar zijn voor alle andere
+rollen, zodat zij contact met mij kunnen opnemen.
+• Als employee wil ik bij mijn openbare gegevens een telefoonnummer, e-mailadres en
+eventueel andere gebruikersnamen kunnen toevoegen.
+• Als employee wil ik projecten kunnen filteren op titel, zodat ik ze makkelijk kan
+terugvinden.
+• Als employee wil ik kunnen zien hoeveel uur ik zelf aan een project heb gewerkt
+wanneer ik de projectdetails bekijk.
+• Als employee wil ik kunnen zien hoeveel uur er in totaal door mij en mijn
+teamgenoten aan een project is gewerkt.
+• Als employee wil ik de periode kunnen zien die gereserveerd staat voor een project.
+• Als employee wil ik de contactgegevens van ieders profiel kunnen bekijken.
+
+Rol: Viewer / Opdrachtgever (read-only)
+• Als viewer wil ik een account kunnen aanmaken, zodat mijn account gekoppeld kan
+worden aan een project.
+• Als viewer wil ik een dashboard hebben waarop ik de aan mij gekoppelde projecten
+kan zien, zodat ik de voortgang kan volgen.
+• Als viewer wil ik op het dashboard projecten kunnen filteren op titel.
+• Als viewer wil ik kunnen zien hoeveel uur er in totaal aan één project is gewerkt
+wanneer ik de projectdetails bekijk.
+• Als viewer wil ik een kalender op mijn dashboard zien, zodat ik een overzicht heb van
+de planning.
+• Als viewer wil ik de titel, beschrijving en bijlagen van gekoppelde projecten kunnen
+bekijken, zodat ik de voortgang kan controleren.
+• Als viewer wil ik openbare gegevens aan mijn profiel kunnen toevoegen, zodat
+anderen contact met mij kunnen opnemen.
+• Als viewer wil ik de contactgegevens van ieders profiel kunnen bekijken.
+
+Rol: Manager / Admin
+• Als manager/admin wil ik employees kunnen koppelen aan projecten.
+• Als manager/admin wil ik toegang hebben tot alle projecten op een aparte pagina,
+zodat ik een duidelijk overzicht heb.
+• Als manager/admin wil ik projecten kunnen filteren op titel op de
+projectoverzichtspagina.
+• Als manager/admin wil ik per gebruiker een overzicht kunnen zien van het totaal
+aantal gewerkte uren.
+• Als manager wil ik een kalender- of agendaoverzicht hebben, zodat ik de planning
+duidelijk kan zien.
+• Als manager wil ik projecten kunnen toewijzen aan employees.
+• Als manager wil ik viewers kunnen koppelen aan projecten, zodat zij de voortgang
+kunnen volgen.
+• Als manager wil ik projecten kunnen openen en de titel, beschrijving en bijlagen
+kunnen bekijken.
+• Als manager wil ik gegevens van employees en viewers kunnen bekijken.
+• Als manager wil ik projecten kunnen aanmaken.
+• Als manager wil ik projecten kunnen bewerken.
+• Als manager wil ik projecten kunnen verwijderen.
+• Als manager/admin wil ik de contactgegevens van ieders profiel kunnen bekijken.
+
+Rollenoverzicht
+• Admin
+• Employee
+• Viewer
