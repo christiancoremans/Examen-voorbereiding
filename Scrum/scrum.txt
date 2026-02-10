@@ -1,0 +1,23 @@
+Scrum
+De drie rollen binnen scrum, inclusief uitleg van iedere rol in je eigen woorden?
+•	de Product Owner
+De product owner vertegenwoordigd het belang van de klant. Dit kan de klant zelf zijn of het is de opdrachtgever, hij betaald voor het product dus heeft ook groot belang dat het product goed is. 
+
+•	de Scrum Master
+De scrum master ondersteunt en begeleid het team, hij zorgt ervoor dat als er eventueel cursussen nodig zijn hij deze regelt. Ook is hij verantwoordelijk voor alle vergaderingen, dus hij zorgt voor een ruimte en bijvoorbeeld een scherm waar dingen op gezien kunnen worden.
+
+•	Scrum team
+Het team is verantwoordelijk voor het afleveren van het product. De teamleden zorgen ervoor dat het product voldoet aan de wensen van de klant. De taken die hun uitvoeren zijn: analyseren, ontwerpen, ontwikkelen, testen en documentatie. 
+
+De vier meetings (‘ceremonies’) binnen scrum, inclusief uitleg van iedere meeting in je eigen woorden?
+•	De sprint planning
+Iedereen is aanwezig bij deze meeting, hierin word besproken wat de productdoel is en de bijgewerkte product backlog, dit word gedaan door de product owner. De developers maken hiervan de userstories en plakken deze op de sprint backlog. 
+
+•	de Daily Scrum meeting
+elke dag checkt het team of ze on track zijn en bespreken waar ze op dit moment mee bezig zijn en eventuele problemen waar ze tegen aan lopen. Wat je ook gedaan hebt. 
+
+•	De sprint review
+Aan het einde van de sprint word er een sprint review gedaan. Hierin inspecteren hoe het is gegaan in de sprint en of er eventuele verbeter punten zijn. 
+
+•	de Retrospective meeting
+dit is de reflectie die er word gedaan bij elkaar over hoe de samenwerking is gelopen. Hierin bespreken ze wat er juist goed ging aan de samenwerking en wat er misschien nog verbeterd zien worden. 

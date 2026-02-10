@@ -1,0 +1,8 @@
+php artisan migrate:fresh --seed
+php artisan migrate
+
+php artisan make:migration create_projects_table
+
+npm run build  
+composer update      
+composer install 

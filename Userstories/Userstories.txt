@@ -1,0 +1,22 @@
+User stories
+•	Als … wil ik … omdat …
+•	Acceptatiecriteria 
+
+Bezoekers
+•	Als bezoeker wil ik verschillede events kunnen zien omdat ik dan kan zien wat ik wil doen
+    o	Meerdere events zijn zichtbaar
+    o	Events ondergeschikt per opleiding
+    o	Events moeten klikbaar zijn 
+•	Als bezoeker wil ik informatie zien over de events op de homescreen omdat ik dan mijn keuze hierop kan aanpassen
+•	Als bezoeker wil ik een aanmeldformulier zien omdat ik dan al mijn informatie kan invullen 
+    o	Als bezoeker wil ik mijn naam kunnen invullen op het aanmeld formulier omdat ik dan goed in het systeem kom
+    o	Als bezoeker wil ik mijn email kunnen invullen op het aanmeld formulier omdat curio mij een email kan sturen
+    o	Als bezoeker wil ik de opleiding waar ik voor kom kunnen invullen op het aanmeld formulier omdat ik dan specifiek weet waarvoor ik me aanmeld
+Curio
+•	Als curio medewerker wil ik zien wie zich aanmeld omdat ik dan kan zien de hoeveelheid bezoekers die er komen
+•	Als curio medewerker wil ik kunnen onderscheiden tussen verschillende sectoren omdat je kan kiezen tussen verschillende sectoren
+•	Als curio medewerker wil ik informatie zien van elke sector omdat ik van elke open dag specifieke informatie kan opzoeken. 
+•	Als curio medewerker wil je dat er na het aanmelden een toestemming bevesteging komt omdat ik dan zeker weet dat ik toestemming heb dat ik contact mag opnemen 
+
+
+----
