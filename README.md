@@ -7,3 +7,6 @@ Welke apps gebruik ik
 4. laragon
 5. Chrome
 
+Websites die je mag gebruiken
+1. https://app.diagrams.net/
+2. https://dbdiagram.io/home
