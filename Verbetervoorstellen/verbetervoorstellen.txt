@@ -1,0 +1,30 @@
+Verbetervoorstellen:
+
+Duidelijk waar je info vandaan haalt
+Realistisch 
+Verwijzen naar ontwerpvoorstel
+Planning en tijd toevoegen aan verbetervoorstel
+
+voorbeeld zelf verzonnen:
+
+omschrijving:
+Volgens het ontwerpvoorstel ziet de gebruiker alleen een lijst met uren zonder filter- of zoekmogelijkheden. Dit maakt het lastig om specifieke periodes of projecten terug te vinden.
+Herkomst van informatie
+- Feedback uit user stories'
+- testen
+
+Verwijzing naar ontwerpvoorstel
+- Functioneel ontwerp: UC-05 Inzien urenoverzicht
+- UI-ontwerp: Dashboard overzichtspagina
+
+Verbetering
+- Toevoegen van filters:
+    - Datum (van/tot)
+    - Project
+    - Gebruiker (voor admin)
+- Backend filtering via Eloquent queries
+- Behoud van huidige layout (consistent met ontwerp)
+
+Planning en tijd:
+Dit kan worden gedaan  door 1 persoon in 4 uur daarna laten testen door iemand anders wat 30 min kost...
+
