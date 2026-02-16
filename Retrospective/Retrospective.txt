@@ -1,0 +1,33 @@
+Dit zijn de belangrijkste dingen die je moet doen bij een Retrospective
+
+1. Voor de retrospective maak je een notitie (notes app) met wat je zelf goed vond gaan en wat juist niet (voorbeeld hieronder)
+2. Het moet een gesprek worden en niet de je notitie opnoemen
+3. Daarna als iemand wat zeg gelijk aanvullen 
+    Oh jij bedoelt...
+    ohja dat vond ik ook (en voeg not wat toe)
+    Klopt daar ben ik het mee eens dat moeten we de volgende sprint zeker weer doen
+4. Terugblikken op gemaakte afspraken in het begin
+5. Concrete nieuwe afspraken maken die specefiek zijn
+    * Wie het doet
+    * Wat er precies word gedaan 
+    * Specefiek (hoelaat)
+    * Wanneer het Voldaan is 
+
+    bijvoorbeeld: christian houd bij dat de daily standup om 13:30 worden gedaan elke dag, bij 10 keer zonder dat christian het heeft gezegd is deze taak voldaan
+6. Afspraken gelijk opschrijven 
+7. Aan het eind vragen of er nog meer opmerkingen zijn en dan nog herhalen van de afspraken
+
+
+Voorbeeld notitie:
+
+wat vind ik goed gaan
+* comminucatie, ik wist wie er afwezig was, hierbij hielp de teams groepsapp heel erg
+* Wanneer iemand iets af had hielpen we gelijk met nakijken
+* Taken verdelen ging vrij makkelijk waardoor iedereen goed door kon
+
+
+wat vind ik niet goed gaan
+* Aanwezigheid, veel afwezig of later
+* Daily standup ging niet altijd optijd door afwezigheid/te laat komen
+
+"afspraak"

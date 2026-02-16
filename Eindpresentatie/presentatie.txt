@@ -1,0 +1,9 @@
+Dit is het belangrijkste wat je meot doen met het opleveren van je website
+
+1. introduceerd wat je hebt gemaakt en wat je af wilde hebben met behulp van je userstories,
+    bijvoorbeeld: Wij hebben een urenregistratie gemaakt en het belangrijkste wat er voor deze sprint stond was het registreren van een project en het inklokken en uitklokken. 
+2. Ga door j project heen als een user dus (usercase) dus maak een project aan en laat zien hoe je het aanmaakt/aaanpast
+3. Iedereen voldoende aan het woord dus je eigen gedeelte uitleggen in detail en laten zien dat het werkt 
+4. Elkaar aanvullen 
+5. Rollen uitleggen (admin kan ... viewer kan alleen maar .. en gebruiker kan ...)
+6. Geen code taal gebruiken, gewoon simpel ABN
