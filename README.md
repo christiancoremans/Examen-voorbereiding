@@ -10,3 +10,6 @@ Welke apps gebruik ik
 Websites die je mag gebruiken
 1. https://app.diagrams.net/
 2. https://dbdiagram.io/home
+
+Github repo's 
+1. https://github.com/tijn-avontuur/UrenRegistratie 
