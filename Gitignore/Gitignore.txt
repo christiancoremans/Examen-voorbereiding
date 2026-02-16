@@ -1,0 +1,5 @@
+Wat moet worden gedaan in gitignore
+
+Vendor
+.env
+Node moduals
