@@ -1,0 +1,3 @@
+Je kan het volgende gebruiken voor de kalender
+
+https://fullcalendar.io/docs
