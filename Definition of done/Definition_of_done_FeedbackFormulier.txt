@@ -1,0 +1,2 @@
+1. Heeft een Definition of Done gemaakt waarmee gecontroleerd kan worden of een user story gereed is
+2. Heeft ervoor gezorgd dat de Definition of Done haalbaar is

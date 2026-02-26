@@ -1,0 +1,3 @@
+1. Heeft een KanBan op GitHub Projects ingericht met de kolommen: Product Backlog, Sprint Backlog, TODO, In Progress, Review, Done
+2. Heeft grote taken opgesplitst in kleinere deeltaken
+3. Het is duidelijk bij welke User Story iedere (deel)taak hoort, bijvoorbeeld door nummers die verwijzen naar User Storles

@@ -7,3 +7,6 @@ php artisan make:model Project
 npm run build  
 composer update      
 composer install 
+
+"Wanneer de update van uiterlijk niet is doorgekomen"
+php artisan view:clear 

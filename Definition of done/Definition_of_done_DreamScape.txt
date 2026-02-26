@@ -1,0 +1,5 @@
+Definition of done
+•	De functionaliteit werkt zoals beschreven in de user story.
+•	Alle acceptatiecriteria van de user story zijn aantoonbaar behaald.
+•	De functionaliteit veroorzaakt geen fouten voor andere bestaande onderdelen van de applicatie.
+•	De code is logisch opgebouwd en consistent geschreven.

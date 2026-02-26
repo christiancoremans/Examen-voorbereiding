@@ -1,0 +1,77 @@
+Table users {
+  id int [pk, increment]
+  username varchar
+  password_hash varchar 
+  role varchar  
+  created_at datetime
+  updated_at datetime
+}
+
+Table profiles {
+  id int [pk, increment]
+  user_id int 
+  display_name varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table items {
+  id int [pk, increment]
+  name varchar 
+  description text
+  type varchar  
+  rarity varchar  
+  created_at datetime
+  updated_at datetime
+}
+
+Table item_stats {
+  id int [pk, increment]
+  item_id int 
+  power int 
+  speed int 
+  durability int  
+  magic int  
+}
+
+Table inventories {
+  id int [pk, increment]
+  user_id int 
+  item_id int 
+  acquired_at datetime
+}
+
+Table trades {
+  id int [pk, increment]
+  sender_id int 
+  receiver_id int 
+  status varchar  
+  created_at datetime
+  updated_at datetime
+}
+
+Table trade_items {
+  id int [pk, increment]
+  trade_id int 
+  item_id int 
+}
+
+Table notifications {
+  id int [pk, increment]
+  user_id int 
+  trade_id int
+  message varchar 
+  is_read boolean [default: false]
+  created_at datetime
+}
+
+Ref: profiles.user_id > users.id
+Ref: inventories.user_id > users.id
+Ref: inventories.item_id > items.id
+Ref: item_stats.item_id > items.id
+Ref: trades.sender_id > users.id
+Ref: trades.receiver_id > users.id
+Ref: trade_items.trade_id > trades.id
+Ref: trade_items.item_id > items.id
+Ref: notifications.user_id > users.id
+Ref: notifications.trade_id > trades.id

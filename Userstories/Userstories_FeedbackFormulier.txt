@@ -1,0 +1,4 @@
+1. Heeft de user stories in het juiste format geschreven.
+2. Is geen belangrijke user stories vergeten.
+3. Heeft gezorgd dat er geen user stories zijn die eigenlijk over meerdere user stories verdeeld moeten worden.
+4. Heeft nuttige acceptatiecriteria bij user stories.

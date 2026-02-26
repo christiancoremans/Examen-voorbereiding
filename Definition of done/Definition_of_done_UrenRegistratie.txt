@@ -1,0 +1,3 @@
+Defenision of done
+•	Werk is goed als het werk is getest door middel van Pest en het werkt zoals het moet.
+•	Ook is het goedgekeurd door minimaal 1 teamlid, dit word gedaan door middel van het laten zien aan dat teamlid en die geeft daarop feedback. 

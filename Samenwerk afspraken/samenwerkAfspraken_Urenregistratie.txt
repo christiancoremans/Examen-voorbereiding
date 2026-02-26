@@ -1,0 +1,70 @@
+Urenregristratie
+Dit document beschrijft de gemaakte afspraken die wij als team hebben gemaakt over de samenwerking, communicatie en werkwijze tijdens het project Urenregristratie. 
+
+Team afspraken
+•	Iedereen is op tijd aanwezig bij gezamenlijke momenten zoals stand-ups of reviews.
+•	Indien iemand te laat of afwezig is word dit vooraf gemeld in de groep chat
+
+Communicatie afspraken 
+•	We communiceren in een teams groep en verbaal in de les.
+•	Belangrijke beslissingen worden vastgelegd op github of de projectdocumentatie. 
+•	Feedback is opbouwend en respectvol 
+
+Werkwijze 
+We werken op de scrum wijze dit betekend:
+
+Daily standup 
+•	Elke projectdag start met de standup.
+•	Tijdens de standup word besproken: Wat heb je gedaan? Wat ga je doen? Waar heb je hulp bij nodig?
+•	We bespreken kort de vooruitgang en de eventuele knelpunten.
+
+Sprints
+In dit project werken we met sprints. 1 sprint is 2 weken.
+
+Kanban bord 
+Kanban bord word in github bijgehouden en bevat het volgende:
+•	Product backlog
+•	Sprint backlog
+•	In progress 
+•	In review
+•	Done
+User stories in product backlog, sprint backlog is waar je deze sprint mee bezig gaat zijn deze sprint, in process is waar je mee bezig bent, in review is wat nog getest moet worden, done is als alles is goedgekeurd.
+
+
+
+
+
+
+
+Git
+Iedereen werkt via github en de github repository. 
+
+Commit afspraken
+•	Engels 
+•	Kleine tekst die duidelijk aangeeft wat er is gebeurt
+•	Zorg dat de titel past bij wat er is aangepast
+•	Voordat de commit word gedaan word er getest met Pest, dit word gedaan door de commando “php artisan test”. 
+
+Verantwoordelijkheid
+Iedereen is verantwoordelijk voor zijn of haar eigen taken.
+Taken worden eerlijk verdeelt per sprint.
+Indien er wat gebeurt word dit tijdig aangeduid en er mee geholpen.
+
+Defenision of done
+•	Werk is goed als het werk is getest door middel van Pest en het werkt zoals het moet.
+•	Ook is het goedgekeurd door minimaal 1 teamlid, dit word gedaan door middel van het laten zien aan dat teamlid en die geeft daarop feedback. 
+
+
+Niet nakomen van afspraken
+1.	Nadat een van de teamleden de afspraken niet is nagekomen word er gesproken met het betreffende teamlid op een respectvolle manier.
+2.	Samen word gekeken wat de oorzaak was van het niet nakomen van de afspraken.
+3.	Er worden concrete afspraken gemaakt om herhaling te voorkomen.
+4.	De afspraken worden vastgelegd en besproken bij de volgende meeting zodat iedereen hiervan op de hoogte is.
+5.	Indien het probleem zich blijft herhalen of de voortgang van het project in gevaar komt, wordt de docent ingeschakeld.
+
+
+------------
+
+Toevoegen over hoe de bestanden worden geschreven en dan ook toevoegen waar (in welke map)
+pascal case
+camel case

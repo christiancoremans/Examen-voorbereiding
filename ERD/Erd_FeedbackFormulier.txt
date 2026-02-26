@@ -1,0 +1,7 @@
+1. Heeft de juiste entiteiten geïdentificeerd
+2. Heeft de correcte relaties tusser entiteiten weergegeven (blijkt uit de kolommen)
+3. Heeft de juiste tekens gebruikt met de juiste richting voor het aangeven van relaties (bijv.: kraaienpoten voor many')
+4. Heeft gebruikgemaakt van de juiste UML-notatie
+5. Heeft primaire en vreemde sleutels (primary en foreign keys) correct toegepast
+6. Heeft het ERD overzichtelijk en leesbaar gemaakt
+7. Heeft de juiste datatypes gekozen voor kolommen
