@@ -1,0 +1,24 @@
+Haalbaarheid
+Heeft realistisch onderbouwd waarom het ontwerp haalbaar is
+
+Heeft duidelijk benoemd welke onderdelen vereenvoudigd kunnen worden bij tijdgebrek
+
+Heeft alternatieve oplossingen overwogen om de haalbaarheid te vergroten
+
+
+Privacy
+Heeft helder beschreven welke persoonlijke gegevens worden verzameld en waarom
+
+Heeft rekening gehouden met data minimalisatie en dit onderbouwd
+
+Heeft maatregelen genomen om gebruikersgegevens goed te beschermen
+
+Heeft uitgewerkt hoe gebruikers worden geïnformeerd over de verzamelde gegevens
+
+
+Security
+Heeft toegelicht hoe de opgeslagen data wordt beveiligd tegen ongeoorloofde toegang
+
+Heeft nagedacht over beveiligingsrisico's en hoe deze voorkomen kunnen worden
+
+Heeft veilige methoden beschreven voor gebruikersauthenticatie en autorisatie

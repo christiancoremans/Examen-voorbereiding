@@ -1,0 +1,93 @@
+Project - E4 Haalbaarheid, Privacy & Security Tijn Avontuur
+Inhoudsopgave
+Haalbaarheid van mijn ontwerp ..................................................................................................... 1
+Privacy in mijn ontwerp ................................................................................................................. 2
+Security in mijn ontwerp................................................................................................................ 3
+Toekomstige verbeteringen............................................................................................................ 4
+Haalbaarheid van mijn ontwerp
+Bij het maken van mijn ontwerp heb ik rekening gehouden met wat haalbaar is binnen de tijd die ik
+heb voor dit project. Ik heb daarom mijn project verdeeld in twee sprints.
+In Sprint 1 focus ik op de basis:
+• Registratie
+• Inloggen
+• Rollen (speler en beheerder)
+• Items bekijken
+• Inventaris bekijken
+• Admin kan items beheren
+Deze onderdelen zijn nodig om een werkende basis te hebben.
+In Sprint 2 werk ik aan uitgebreidere functies:
+• Filters en zoeken
+• Handelssysteem
+• Notificaties
+• Statistieken voor de beheerder
+Door het project op te splitsen blijft het overzichtelijk en haalbaar.
+Wat als ik tijd tekort kom?
+Als ik merk dat ik tijd tekort kom, kan ik:
+• Het handelssysteem simpeler maken (bijvoorbeeld één item per trade).
+• Notificaties alleen als simpele meldingen tonen.
+• Filters of sorteeropties uitstellen.
+• Admin statistieken beperken tot een eenvoudige telling.
+Zo blijft de belangrijkste functionaliteit wel werken.
+Project - E4 Haalbaarheid, Privacy & Security Tijn Avontuur
+Privacy in mijn ontwerp
+Bij mijn ontwerp heb ik nagedacht over welke gegevens echt nodig zijn.
+Welke gegevens verzamel ik?
+• Ik verzamel alleen:
+o Gebruikersnaam
+o Wachtwoord
+o Rol (speler of beheerder)
+• Ik verzamel geen:
+o E-mailadres
+o Adres
+o Telefoonnummer
+o Geboortedatum
+Deze gegevens zijn niet nodig voor een inventaris- en handelssysteem.
+Waarom zijn deze gegevens nodig?
+• De gebruikersnaam is nodig om spelers te herkennen.
+• Het wachtwoord is nodig om veilig in te loggen.
+• De rol is nodig om te bepalen of iemand adminrechten heeft.
+Ik verzamel dus alleen gegevens die echt nodig zijn voor het systeem.
+• Ik zorg ervoor dat ik niet meer gegevens opsla dan nodig is.
+• Bij registratie vraag ik alleen de verplichte velden.
+• Ik sla ook geen extra profielinformatie op die niet gebruikt wordt.
+Hoe bescherm ik privacy?
+• Wachtwoorden worden gehasht opgeslagen (dus niet leesbaar in de database).
+• Een speler kan alleen zijn eigen inventaris zien.
+• Alleen beheerders kunnen bij adminfuncties.
+• Er is geen openbare toegang tot gebruikersgegevens.
+Als dit een echte applicatie zou zijn, zou ik ook een privacyverklaring toevoegen waarin staat welke
+gegevens worden opgeslagen en waarom.
+Project - E4 Haalbaarheid, Privacy & Security Tijn Avontuur
+Security in mijn ontwerp
+Security is belangrijk omdat spelers accounts hebben en items kunnen ruilen.
+Hoe beveilig ik de data?
+• Wachtwoorden worden gehasht opgeslagen.
+• Ik gebruik prepared statements tegen SQL-injectie.
+• Pagina’s controleren of iemand is ingelogd.
+• Adminpagina’s controleren of iemand de juiste rol heeft.
+• Bij uitloggen wordt de sessie verwijderd.
+• Bekende beveiligingsrisico’s oplossen.
+Ik houd rekening met:
+• SQL-injection
+o Ik gebruik prepared statements zodat gebruikers geen kwaadaardige SQL kunnen
+uitvoeren.
+• XSS (Cross Site Scripting)
+o Ik zorg dat invoer van gebruikers niet direct als HTML wordt uitgevoerd.
+o Ongeautoriseerde toegang
+o Ik controleer op elke beveiligde pagina of iemand is ingelogd en de juiste rol heeft.
+• Authenticatie
+o Gebruiker logt in met gebruikersnaam en wachtwoord.
+o Het ingevoerde wachtwoord wordt gecontroleerd met de opgeslagen hash.
+• Autorisatie
+o Elke gebruiker heeft een rol.
+o Alleen beheerders mogen items aanpassen of accounts aanmaken.
+Zo voorkom ik dat spelers adminrechten krijgen.
+Project - E4 Haalbaarheid, Privacy & Security Tijn Avontuur
+Toekomstige verbeteringen
+Als dit systeem verder ontwikkeld zou worden, zou ik:
+• Twee-factor-authenticatie toevoegen.
+• HTTPS verplicht maken.
+• Beveiliging tegen brute force aanvallen toevoegen.
+• Logging toevoegen om verdachte activiteiten te zien.
+• Meer rollen toevoegen (bijvoorbeeld moderator).
+• Ook zou ik automatische tests toevoegen om fouten sneller te ontdekken.

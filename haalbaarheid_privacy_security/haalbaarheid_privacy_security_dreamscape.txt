@@ -1,0 +1,18 @@
+Haalbaarheid
+Mijn ontwerp is haalbaar omdat ik 2 weken de tijd heb om te ontwikkelen. Dit is zeker genoeg tijd om grote gedeeltes van de website af te maken. Ik heb de onderdelen van de website geprioriteerd van het meest belangrijk tot het minst belangrijk voor sprint 1. Mocht ik het minst belangrijke gedeelte net niet genoeg tijd voor hebben dan zet ik door naar sprint 2. Dit zou hoogstwaarschijnlijk het toevoegen van notificaties zijn.  
+
+
+Privacy
+De website vraagt maar een aantal dingen aan de klant, voor het account aanmaken word er gevraagd om een gebruikersnaam en wachtwoord, daarnaast word er ook nog bijgehouden wat voor rol ze zijn en wanneer het account is aangemaakt of aangepast. De username word gevraagd om de klant een eigen account naam te kunnen geven. Het wachtwoord word gehashed opgeslagen zodat het nooit terug is afgeleiden wat het wachtwoord is. De rol word bijgehouden voor welke bevoegdheden het account heeft, dus is het een speler of een admin. Ook kan de klant nog een eigen display name maken. Dit word gedaan zodat andere mensen niet achter je username komen en daardoor snel proberen in te loggen, door dit apart te houden word dat bereikt. 
+
+Naast dit word er niks verzameld van de klanten, dit is zeker niet nodig voor het gebruiken van de website en daarom is er gekozen om niet meer te verzamelen. Veel websites verzamelen een e-mail, geboortedata, telefoonnummer en locatiegegevens. Wij verzamelen geen e-mail en daarentegen hebben we een gebruikersnaam die de gebruiker zelf kan aanmaken. Geboortedata, telefoonnummer en de locatiegegevens worden niet gebruikt in de rest van de app en daarom ook niet verzameld. Ook verzamelen we geen echte namen en worden die dus ook nooit gelinkt aan het account wat bij ons is aangemaakt. 
+
+Security
+Voor security worden de wachtwoorden gehashed. Hashen is een manier van beveiligen omdat hashen zorgt dat het wachtwoord word opgeslagen als onleesbare regel tekens. Deze regel tekens kan ook nooit terug gedraaid worden naar het wachtwoord wat is ingevuld. Dus als het wachtwoord word ingevoerd in de website dan word het een aantal keer gehashed op een bepaalde manier, dit word opgeslagen in de database. Om in te loggen wat de app doet is het opnieuw ingevulde wachtwoord op dezelfde manier hashen als het opgeslagen wachtwoord, als dat is gebeurt dan kijkt de app of het overeenkomt zo ja dan word je doorgestuurd zo nee dan krijg je een error. Dit zorgt ervoor dat het wachtwoord nooit kan worden gestolen bij een eventuele hack. 
+
+Ook word er gehanteerd van de Least Privilege principe, dit betekend dat elke gebruiker alleen kan doen wat ze moeten en niet meer. Dus de klant heeft minder rechten dan de admin.  De klant kan alleen de producten zien en niet aanpassen bijvoorbeeld, dit kan de admin gebruikers wel. 
+
+Xss (geen script als input in kunnen doen door bijvoorbeeld te zorgen dat < word opgeslagen als $alt en daardoor activeerd de code niet maar word een zichtbare html text)
+
+Crsf (bij forms beschermen tegen xss) (crsf maakt een hidden token die bij je post form die je niet vanaf buitenaf kan zien hierdoor is het onmogelijk om dat form correct door te laten voeren vanuit een andere website )
+

@@ -1,10 +1,15 @@
 php artisan migrate:fresh --seed
 php artisan migrate
 
+"make livewire component chart"
+php artisan make:livewire Chart
+
 php artisan make:migration create_projects_table
 php artisan make:model Project
 
-npm run build  
+npm run build 
+npm run dev
+    
 composer update      
 composer install 
 
