@@ -6,6 +6,7 @@ Welke apps gebruik ik
 3. node js
 4. laragon
 5. Chrome
+6. git
 
 Websites die je mag gebruiken
 1. https://app.diagrams.net/
