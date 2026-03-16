@@ -1,0 +1,9 @@
+Heeft een overzichtelijk template gebruikt voor ieder testscenario (bijv use-case template)
+Heeft duidelijk voor de tester geschreven welke handelingen ondernomen dienen te worden
+Benoemt duidelijk het verwachte resultaat na iedere verzameling handelingen
+Heeft een logische volgorde van tests gekozen om de applicatie te testen
+Heeft expliciet testdata aangeleverd overal waar gegevens ingevoerd moeten worden (bijv.: niet 'voer een getal in', maar: 'vul 6 in')
+Heeft bij ieder testscenario een plek waar de tester opmerkingen kan achterlaten
+Heeft bij iedere test een plek waar de tester kan aangeven of de test is geslaagd ja/nee
+Heeft relevante testgegevens verzameld en geanalyseerd
+Heeft de conclusies logisch onderbouwd op basis van de testresultaten

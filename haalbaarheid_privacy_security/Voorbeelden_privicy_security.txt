@@ -1,0 +1,40 @@
+XSS (cross site scripting)
+Dit is als er een input veld is dat je eigen code kan invullen die uitgevoert word op de website.
+oplossing:
+. zorg dat input altijd als onbetrouwbaar word gestelt 
+. specialcars: zorg dat sommige tekens niet in de database als dat teken word gezet maar als woord (voorbeeld: < = &lt;) waardoor de code niet meer werkt
+
+SQL injection
+Dit is als een input rechtstreeks in je database word geplakt, hierdoor kan de hacker data ophalen van jou database
+oplossing:
+. Prepared Statements
+. eloquent (geen sql quiry)
+
+CSRF (Cross-Site Request Forgery)
+Dat iemand met een ander website dingen invoeren in een formulier.
+oplossing:
+. CRSF token meegeven, dit is een token die apparte nummers meegeeft aan elke formulier, mocht dit niet meegegeven worden kan de formulier niet worden uitgevoert 
+
+Invoervalidatie
+Dit is dat je alleen de info kan invullen die bedoelt is voor de input, dus een e-mail bij een e-mail.
+oplossing:
+. Altijd je php/server laten kijken of de informatie klopt en niet de html(die kan namelijk veranderd worden)
+
+public function rules()
+{
+    return [
+        'title' => 'required|unique:posts|max:255',
+        'body' => 'required',
+        'email' => 'required|email',
+    ];
+}
+
+Autorisatie
+kijken of je wel bevoegt bent om iets te doen, bijvoorbeeld dat je een admin bent voordat je een gebruiker kan verwijderen
+oplossing:
+. Middleware gebruiken, dit is een soort filter die kijkt of je wel bevoegd bent voordat je iets kan doen.
+
+autenticatie
+inloggen: kijken of je wel bent wie je zegt dat je bent, bijvoorbeeld dat je een account hebt voordat je kan inloggen
+oplossing: 
+. Hashing gebruiken, dit is een manier om wachtwoorden te versleutelen zodat ze niet leesbaar zijn in de database, hierdoor kunnen hackers niet zomaar je wachtwoord stelen als ze toegang krijgen tot de database.
