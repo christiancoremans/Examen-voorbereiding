@@ -1,5 +1,5 @@
-Urenregristratie
-Dit document beschrijft de gemaakte afspraken die wij als team hebben gemaakt over de samenwerking, communicatie en werkwijze tijdens het project Urenregristratie. 
+MakersMarkt samenwerkingsafspraken
+Dit document beschrijft de gemaakte afspraken die wij als team hebben gemaakt over de samenwerking, communicatie en werkwijze tijdens het project MakersMarkt. 
 
 Team afspraken
 •	Iedereen is op tijd aanwezig bij gezamenlijke momenten zoals stand-ups of reviews.
@@ -8,7 +8,7 @@ Team afspraken
 Communicatie afspraken 
 •	We communiceren in een teams groep en verbaal in de les.
 •	Belangrijke beslissingen worden vastgelegd op github of de projectdocumentatie. 
-•	Feedback is opbouwend en respectvol 
+•	Feedback is opbouwend en respectvol. 
 
 Werkwijze 
 We werken op de scrum wijze dit betekend:
@@ -36,6 +36,8 @@ User stories in product backlog, sprint backlog is waar je deze sprint mee bezig
 
 
 
+
+
 Git
 Iedereen werkt via github en de github repository. 
 
@@ -43,7 +45,32 @@ Commit afspraken
 •	Engels 
 •	Kleine tekst die duidelijk aangeeft wat er is gebeurt
 •	Zorg dat de titel past bij wat er is aangepast
-•	Voordat de commit word gedaan word er getest met Pest, dit word gedaan door de commando “php artisan test”. 
+•	Voordat de commit word gedaan word er getest met Pest, dit word gedaan door de commando “php artisan test”.
+
+Git branching
+•	Per functie wordt er een aparte branch aangemaakt.
+•	Branch naam
+    o	feature/*naam* = nieuwe functionaliteit
+    o	bugfix/*naam* = bugfixes
+    o	impr/*naam* = verbeteringen 
+    o	docs/*naam* = documentatie toevoegen
+•	Voorbeeld:
+    o	Feature/createProduct
+    o	bugfix/loginError
+    o	impr/laadtijdOptimalisatie
+    o	docs/conventieAfspraken
+
+Workflow
+1.	Maakt een nieuwe vanaf main
+2.	Ontwikkeld functionaliteit 
+3.	Merge main in nieuwe branch 
+4.	Test alles lokaal 
+5.	Verbeter eventueel de onderdelen die niet werken
+6.	Maak een pull request bij de main
+7.	Merge naar main
+8.	Test opnieuw bij main
+9.	Verwijder aparte branch 
+
 
 Verantwoordelijkheid
 Iedereen is verantwoordelijk voor zijn of haar eigen taken.
@@ -54,17 +81,9 @@ Defenision of done
 •	Werk is goed als het werk is getest door middel van Pest en het werkt zoals het moet.
 •	Ook is het goedgekeurd door minimaal 1 teamlid, dit word gedaan door middel van het laten zien aan dat teamlid en die geeft daarop feedback. 
 
-
 Niet nakomen van afspraken
 1.	Nadat een van de teamleden de afspraken niet is nagekomen word er gesproken met het betreffende teamlid op een respectvolle manier.
 2.	Samen word gekeken wat de oorzaak was van het niet nakomen van de afspraken.
 3.	Er worden concrete afspraken gemaakt om herhaling te voorkomen.
 4.	De afspraken worden vastgelegd en besproken bij de volgende meeting zodat iedereen hiervan op de hoogte is.
 5.	Indien het probleem zich blijft herhalen of de voortgang van het project in gevaar komt, wordt de docent ingeschakeld.
-
-
-------------
-
-Toevoegen over hoe de bestanden worden geschreven en dan ook toevoegen waar (in welke map)
-pascal case
-camel case

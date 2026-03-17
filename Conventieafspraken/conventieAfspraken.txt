@@ -1,0 +1,47 @@
+Conventieafspraken MakersMarkt
+Dit document beschrijft de gemaakte afspraken die wij als team hebben gemaakt over git branching, architectuur, conventies en commentaar de tijdens het project MakersMarkt. 
+
+Architectuur
+•	Elke feature word gemaakt als livewire component.
+•	Bij components die het nodig hebben word een model gemaakt.
+    o	Het model zorgt dat de data uit de database word gehaald.
+
+Conventie
+•	Alle namen worden in het Engels geschreven
+•	component namen = Lower camelCase 
+•	Bestandsnaam = PascalCase
+•	Blade view = kebab-case
+•	Model = PascalCase
+•	Database tabellen = snake_case in meervoud 
+•	Database kolommen = snake_case
+
+Component class	ProductList.php
+Component naam	productList
+Blade view	product-list.blade.php
+Model	User.php
+Database tabellen	users
+Database kolommen	user_id
+
+Type	Voorbeeld
+Component class	ProductList.php
+Component naam	productList
+Blade view	product-list.blade.php
+Model	User.php
+Database tabellen	users
+Database kolommen	user_id
+
+Commentaar 
+Schrijf alleen comments waar nodig. 
+
+Gebruik:
+•	Engels 
+•	Volledige zinnen
+•	Leg ook uit waarom en niet alleen wat
+
+Voorbeeld:
+// Prevent user from ordering without enough credit
+if ($user->credit < $product->price) {
+    return;
+}
+
+
