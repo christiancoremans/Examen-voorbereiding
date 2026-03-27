@@ -1,0 +1,15 @@
+makersmarkt retrospective
+
+wat ging er goed:
+product wat we neer hebben gezet
+goede oplossing met als ik klaar met de userstories was
+
+
+wat ging er minder goed:
+ik vond zelf dat de userstories niet handig verdeeld waren, ik had bijvoorbeeld veel aan het begin werk en was snel klaar en tijn had heel veel aan het einde (dus er moest al wat gedaan zijn voordat hij kan beginnnen)
+
+wat heb ik geleerd:
+volgende keer niet verdelen per user maar via gedeelte (bvb hele crud systeem of dashboard en niet alles van koper)
+
+wat gaan we anders doen:
+userstories beter verdelen
