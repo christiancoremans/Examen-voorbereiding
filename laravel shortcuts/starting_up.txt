@@ -1,6 +1,8 @@
 composer install
-.env example maak .env
+.env example maak .env (cp .env.example .env)
 verander naam database
-php artisan key:generate
+generate key (php artisan key:generate)
 zorg dat laragon runned
 php artisan migrate
+npm install
+npm run dev
